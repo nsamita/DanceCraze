@@ -151,10 +151,10 @@ public class Play {
         ivgreen.setX(295.5);
         ivpink.setX(404.5);
         ivpurple.setX(511);
-        ivblue.setY(15);
-        ivgreen.setY(15);
-        ivpink.setY(15);
-        ivpurple.setY(15);
+        ivblue.setY(490);
+        ivgreen.setY(490);
+        ivpink.setY(490);
+        ivpurple.setY(490);
 
         // get location positions
         //nat's path
@@ -255,8 +255,8 @@ public class Play {
                     ImageView iv = temp.getBall();
                     //iv.setY(0);
                     TranslateTransition tt = new TranslateTransition(Duration.millis(1500), iv);
-                    tt.setFromY(700);
-                    tt.setToY(0);
+                    //tt.setFromY(700);
+                    tt.setToY(700);
                     tt.setDelay(Duration.millis((int) time.toMillis()));
                     tt.play();
 
@@ -270,8 +270,8 @@ public class Play {
                     ImageView iv = temp.getBall();
                     //iv.setY(600);
                     TranslateTransition tt = new TranslateTransition(Duration.millis(1500), iv);
-                    tt.setFromY(700);
-                    tt.setToY(0);
+                    //tt.setFromY(700);
+                    tt.setToY(700);
                     tt.setDelay(Duration.millis((int) time.toMillis()));
                     tt.play();
 
@@ -284,8 +284,8 @@ public class Play {
                     ImageView iv = temp.getBall();
                     //iv.setY(600);
                     TranslateTransition tt = new TranslateTransition(Duration.millis(1500), iv);
-                    tt.setFromY(700);
-                    tt.setToY(0);
+                    //tt.setFromY(700);
+                    tt.setToY(700);
                     tt.setDelay(Duration.millis((int) time.toMillis()));
                     tt.play();
 
@@ -298,8 +298,8 @@ public class Play {
                     ImageView iv = temp.getBall();
                     //iv.setY(600);
                     TranslateTransition tt = new TranslateTransition(Duration.millis(1500), iv);
-                    tt.setFromY(700);
-                    tt.setToY(0);
+                    //tt.setFromY(700);
+                    tt.setToY(700);
                     tt.setDelay(Duration.millis((int) time.toMillis()));
                     tt.play();
 
