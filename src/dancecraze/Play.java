@@ -158,11 +158,11 @@ public class Play {
 
         // get location positions
         //nat's path
-        connect1 = DriverManager.getConnection("jdbc:ucanaccess:///Users/macintoshhd/Desktop/DanceCraze/tapNodes.accdb");
+        //connect1 = DriverManager.getConnection("jdbc:ucanaccess:///Users/macintoshhd/Desktop/DanceCraze/tapNodes.accdb");
         //fon's path
         //connect1 = DriverManager.getConnection("jdbc:ucanaccess://C://Users//Mac//Desktop//crazyTap//tapNodes.accdb");
         //kk's path
-        //connect1 = DriverManager.getConnection("jdbc:ucanaccess://C://Users//Macbook Pro//Documents//GitHub//crazyTap//tapNodes.accdb");
+         connect1 = DriverManager.getConnection("jdbc:ucanaccess://C://Users//Macbook Pro//Documents//GitHub//DanceCraze//tapNodes.accdb");
         stat1 = connect1.createStatement();
 
         if (songname.equals("Closer")) {
@@ -207,8 +207,8 @@ public class Play {
         textBox.setPromptText("Write here");
 
         int dutime=0;
-        if(songname.equals("Closer")) dutime = 91000;
-        else if(songname.equals("Roses")) dutime = 105010;
+        if(songname.equals("Closer")) dutime = 92220;
+        else if(songname.equals("Roses")) dutime = 108690;
         Duration summerTime = Duration.millis(dutime);
 
         int comp = tryTime.get(0);
@@ -359,8 +359,6 @@ public class Play {
                 } catch (InterruptedException ex) {
                     Logger.getLogger(Play.class.getName()).log(Level.SEVERE, null, ex);
                 }
-
-                //do something.........
                 System.out.println("all things done");
             }
         }).run();
